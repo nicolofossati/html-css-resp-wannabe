@@ -134,8 +134,17 @@ img {
         width: 1140px;
         margin: auto;
     }
+
+    .lessons .col{
+        width: 50vh;
+    }
+
+    .row{
+        justify-content: center;
+    }
 }
 
 /*    MOBILE      */
 @media screen and (max-width: 480px){
+    
 }
