@@ -130,13 +130,23 @@ img {
 
 /*    TABLET      */
 @media screen and (max-width: 768px){ 
+
+    .container{
+        width: 768px;
+        padding: 0 10px;
+    }
+
     .site-header h1{
-        width: 1140px;
+        width: 768px;
         margin: auto;
     }
 
     .lessons .col{
         width: 50vh;
+    }
+
+    .steps .col{
+        width: calc(100vh / 3);
     }
 
     .row{
