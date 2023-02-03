@@ -128,11 +128,14 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-
-@media screen and (max-width: 768px){
-    
+/*    TABLET      */
+@media screen and (max-width: 768px){ 
+    .site-header h1{
+        width: 1140px;
+        margin: auto;
+    }
 }
 
-
+/*    MOBILE      */
 @media screen and (max-width: 480px){
 }
